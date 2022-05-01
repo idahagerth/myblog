@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8edeb;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.maincontent {
+  display: grid;
+  grid-template-rows: 25% 60% 10%;
+  height: 100vh;
+  width: 100vw;
+}
+header {
+  border-style: solid;
+  border-color: #f8edeb;
+}
+main {
+  border-style: solid;
+  border-color: #f8edeb;
+}
+footer {
+  border-style: solid;
+  border-color: #f8edeb;
+}
+input {
+  border-style: none;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  font-family: "Gilda Display", serif;
+}
+textarea {
+  border-style: none;
+  height: 15em;
+  width: 100%;
+  resize: none;
+}
+h1 {
+  text-align: center;
+  font-family: "Creepster", cursive;
+  font-size: 70px;
+}
+form {
+  display: block;
+  font-family: "Gilda Display", serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+input.button {
+  border-radius: 30px;
+  width: 30%;
+  font-family: "Gilda Display", serif;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  color: ghostwhite;
+  font-size: 100%;
+}
+.buttonalign {
+  display: flex;
+  justify-content: center;
+  font-family: "Gilda Display", serif;
+}
+
+@media (min-width: 400px) {
+  input {
+    border-style: none;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    font-family: "Gilda Display", serif;
+    font-size: 70%;
+  }
+  textarea {
+    border-style: none;
+    height: 15em;
+    width: 50%;
+    resize: none;
+  }
+  h1 {
+    text-align: center;
+    font-family: "Creepster", cursive;
+    font-size: 70px;
+  }
+  form {
+    display: block;
+    font-family: "Gilda Display", serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  input.button {
+    border-radius: 30px;
+    width: 10%;
+    font-family: "Gilda Display", serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: ghostwhite;
+    font-size: 100%;
+  }
+  .buttonalign {
+    display: flex;
+    justify-content: center;
+    font-family: "Gilda Display", serif;
+  }
+}
